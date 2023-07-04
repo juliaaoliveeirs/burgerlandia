@@ -14,6 +14,10 @@
   font: 400 1rem/1.5 "Roboto", sans-serif;
 }
 
+.font-2-m {
+  font: 400 1.125rem/1.35 "Roboto", sans-serif;
+}
+
 .font-1-m,
 .font-1-m-b {
   font: 400 1.125rem/1.35 "Quicksand", sans-serif;
@@ -21,14 +25,6 @@
 
 .font-1-m-b {
   font-weight: 600;
-}
-
-.font-2-m {
-  font: 500 1.125rem/1.35 "Roboto", sans-serif;
-}
-
-.font-1-l {
-  font: 400 1.5rem/1.5 "Quicksand", sans-serif;
 }
 
 .font-2-l,
@@ -42,12 +38,21 @@
   text-transform: uppercase;
 }
 
-.font-1-xl {
-  font: 600 2rem/1.25 "Quicksand", sans-serif;
+/* .font-2-xl {
+  font: 500 2rem/1.25 "Roboto", sans-serif;
+} */
+
+.font-1-l,
+.font-1-l-b {
+  font: 400 1.5rem/1.5 "Quicksand", sans-serif;
 }
 
-.font-2-xl {
-  font: 500 2rem/1.25 "Roboto", sans-serif;
+.font-1-l-b {
+  font-weight: 600;
+}
+
+.font-1-xl {
+  font: 600 2rem/1.25 "Quicksand", sans-serif;
 }
 
 .font-1-xxl {
@@ -70,6 +75,9 @@
   }
   .font-1-xl,
   .font-2-xl {
+    font-size: 1.5rem;
+  }
+  .font-1-xl-b {
     font-size: 1.5rem;
   }
 }

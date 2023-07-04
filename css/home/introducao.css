@@ -1,5 +1,5 @@
 .banner {
-  background: url("../../img/banners/home.jpg") no-repeat;
+  background: url('../../img/banners/home.jpg') no-repeat;
 }
 
 .introducao-bg {
@@ -23,4 +23,36 @@
   gap: 60px;
   align-items: center;
   padding-bottom: 80px;
+}
+
+@media (max-width: 800px) {
+  .introducao-horario {
+    gap: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .introducao-horario .font-1-l {
+    font-size: 1.125rem;
+  }
+  .introducao-horario .font-2-m {
+    font-size: 1rem;
+  }
+  .introducao-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 660px) {
+  .introducao-horario {
+    gap: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .introducao-conteudo {
+    gap: 30px;
+  }
+  .introducao-conteudo .font-2-l {
+    font-weight: 400;
+    font-size: 1rem;
+  }
 }

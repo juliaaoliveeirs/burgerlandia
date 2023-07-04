@@ -1,0 +1,77 @@
+.promocoes-bg {
+  background-color: var(--cor-p5);
+  background-image: url('../../img/decoracao.svg');
+  padding-bottom: 80px;
+}
+
+.promocoes-titulo {
+  margin-bottom: 80px;
+}
+
+.promocoes-titulo h1 {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 12px;
+}
+
+.promocoes-titulo img {
+  margin: 0 auto;
+}
+
+.promocoes-lista > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  text-align: center;
+}
+
+.promocoes-lista li {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-row: 5fr; */
+  background-color: var(--cor-0);
+  padding: 48px 80px;
+  border-radius: 4px;
+}
+
+.promocoes-lista li span {
+  grid-area: 1/1;
+  place-self: start center;
+  margin-top: -75px;
+  background: var(--cor-11);
+  display: inline-block;
+  width: 300px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+.promocoes-lista li img {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.promocoes-lista li h2 {
+  display: block;
+}
+
+.promocoes-lista li h2::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--cor-p5);
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.promocoes-lista-descricao {
+  padding-bottom: 48px;
+}
+
+.promocoes-lista-descricao li {
+  padding: 8px;
+}
