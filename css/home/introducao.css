@@ -13,8 +13,7 @@
   justify-content: center;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .introducao-conteudo {
@@ -27,9 +26,9 @@
 
 @media (max-width: 800px) {
   .introducao-horario {
-    gap: 40px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    gap: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
   }
   .introducao-horario .font-1-l {
     font-size: 1.125rem;
@@ -39,6 +38,8 @@
   }
   .introducao-conteudo {
     grid-template-columns: 1fr;
+    gap: 30px;
+    padding-bottom: 60px;
   }
 }
 

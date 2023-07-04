@@ -93,6 +93,12 @@
 }
 
 @media (max-width: 800px) {
+  .promocoes-titulo {
+    margin-bottom: 60px;
+  }
+  .promocoes-titulo h1 {
+    padding-top: 40px;
+  }
   .promocoes-lista {
     grid-template-columns: 1fr;
     max-width: 500px;
