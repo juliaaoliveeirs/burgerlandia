@@ -21,8 +21,7 @@
 .promocoes-lista {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 400px;
-  gap: 120px;
+  gap: 80px;
   text-align: center;
   justify-content: center;
 }
@@ -30,7 +29,6 @@
 .promocoes-lista li {
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-row: 5fr; */
   background-color: var(--cor-0);
   padding: 48px 80px;
   border-radius: 4px;
@@ -78,14 +76,44 @@
   padding: 8px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .promocoes-lista {
-    grid-template-columns: 1fr;
     gap: 40px;
-    justify-content: center;
+  }
+  .promocoes-lista li {
+    padding: 48px 32px;
   }
 
   .promocoes-lista li span {
     margin-top: -65px;
+  }
+  .promocoes-lista-descricao li {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 800px) {
+  .promocoes-lista {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+  .promocoes-lista li {
+    padding: 48px 32px;
+  }
+  .promocoes-lista li span {
+    margin-top: -65px;
+  }
+  .promocoes-lista-descricao li {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .promocoes-lista li img {
+    width: 200px;
+    height: 125px;
+  }
+  .promocoes-lista li span {
+    width: 200px;
   }
 }
