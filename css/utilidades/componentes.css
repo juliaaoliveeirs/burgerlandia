@@ -9,8 +9,8 @@
 
 .banner {
   height: 500px;
-  object-fit: cover;
   background-size: cover;
+  background-position: top center;
   display: flex;
   align-items: center;
 }
