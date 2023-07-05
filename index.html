@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Burgerlandia</title>
 
-  <link rel="stylesheet" href="./css/style.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.className += ' js'</script>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
     </div>
   </header>
 
-  <main>
+  <main class="js-scroll">
     <div class="banner">
       <h1 class="titulo-banner font-1-xxl cor-0 container">nosso lanche Rib-Tastic Burger é o mais bem avaliado nos Apps de delivery.</h1>
     </div>
@@ -65,10 +66,10 @@
     </div>
   </main>
 
-  <article aria-label="Cardárpio" class="cardapio-lista">
-    <div class="container cardapio-titulo">
+  <article aria-label="Cardárpio" class="cardapio-lista js-scroll">
+    <div class="container titulo">
       <h1 class="font-1-xxl cor-11">conheça o nosso cardápio</h1>
-      <img src="img/dec_pontos_preto.svg" alt="Decoração">
+      <img src="./img/dec/dec_pontos_preto.svg" alt="Decoração">
     </div>
     <div class="cardapio-carousel">
       <ul>
@@ -106,10 +107,10 @@
     </div>
   </article>
 
-  <article aria-label="Promoções" class="promocoes-bg">
-    <div class="container promocoes-titulo">
+  <article aria-label="Promoções" class="promocoes-bg js-scroll">
+    <div class="container titulo">
       <h1 class="font-1-xxl cor-0">nossas promoções</h1>
-      <img src="img/dec_pontos_branco.svg" alt="Decoração">
+      <img src="./img/dec/dec_pontos_branco.svg" alt="Decoração">
     </div>
     <div class="container">
       <ul class="container promocoes-lista">
@@ -156,6 +157,82 @@
       </ul>
     </div>
   </article>
+
+  <section aria-label="Depoimentos" class="container depoimento js-scroll">
+    <div class="container titulo">
+      <h1 class="font-1-xxl cor-11">depoimentos</h1>
+      <img src="./img/dec/dec_pontos_preto.svg" alt="Decoração">
+    </div>
+    <div class="depoimento-conteudo">
+      <blockquote class="font-1-l cor-11">
+        <p><span class="depoimento-decoracao">“</span> O lanche que experimentei foi simplesmente incrível! A combinação perfeita de sabores e a qualidade dos ingredientes me deixaram totalmente satisfeita. <span class="depoimento-decoracao">”</span> </p>
+      </blockquote>
+      <span class="font-2-m cor-11">Julia Silva</span>
+    </div>
+  </section>
+
+  <footer class="footer-bg">
+    <div class="container footer">
+      <img src="./img/burgerlandia.svg" width="80" height="32" alt="Burgerlandia">
+      <div class="footer-enderecos">
+        <ul class="font-2-m cor-p8">
+          <li>
+            <h3 class="font-2-l-b cor-p9">Barra Funda:</h3>
+            <p>Rua Logo Ali, 527 - Barra Funda</p>
+            <p>São Paulo - SP - CEP 12345 456</p>
+          </li>
+          <li>
+            <h3 class="font-2-l-b cor-p9">Vila Madalena:</h3>
+            <p>Rua Logo Ali, 527 - Vila Madalena</p>
+            <p>São Paulo - SP - CEP 12345 456</p>
+          </li>
+          <li>
+            <h3 class="font-2-l-b cor-p9">Shopping Interlagos:</h3>
+            <p>Rua Logo Ali, 527 - Shopping Interlagos</p>
+            <p>São Paulo - SP - CEP 12345 456</p>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-contato">
+        <h3 class="font-2-l-b cor-p9">Contato</h3>
+        <ul class="font-2-m cor-p8">
+          <li>
+            <a href="tel:+5511991919191">+55 (11) 99191-9191</a>
+          </li>
+          <li>
+            <a href="mailto:sac@burgerlandia.com">sac@burgerlandia.com</a>
+          </li>
+        </ul>
+        <div class="footer-redes">
+          <a href="#">
+            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
+          </a>
+          <a href="#">
+            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
+          </a>
+          <a href="#">
+            <img src="./img/redes/youtube.svg" width="32" height="32" alt="YouTube">
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3 class="font-2-l-b cor-p9">Links</h3>
+        <nav>
+          <ul class="font-1-m cor-p8">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cardápio</a></li>
+            <li><a href="#">Lanchonetes</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="font-2-m cor-p8 footer-copy">Burgerlandia © Alguns direitos reservados.</p>
+    </div>
+
+  </footer>
+
+  <script src="./js/scripts.js"></script>
 
 </body>
 

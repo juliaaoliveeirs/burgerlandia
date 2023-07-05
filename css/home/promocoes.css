@@ -1,21 +1,11 @@
 .promocoes-bg {
   background-color: var(--cor-p5);
-  background-image: url('../../img/decoracao.svg');
+  background-image: url('../../img/dec/decoracao.svg');
   padding-bottom: 80px;
 }
 
-.promocoes-titulo {
-  margin-bottom: 80px;
-}
-
-.promocoes-titulo h1 {
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 12px;
-}
-
-.promocoes-titulo img {
-  margin: 0 auto;
+.promocoes-bg .titulo {
+  margin-bottom: 60px;
 }
 
 .promocoes-lista {
@@ -93,11 +83,8 @@
 }
 
 @media (max-width: 800px) {
-  .promocoes-titulo {
-    margin-bottom: 60px;
-  }
-  .promocoes-titulo h1 {
-    padding-top: 40px;
+  .promocoes-bg .titulo {
+    margin-bottom: 20px;
   }
   .promocoes-lista {
     grid-template-columns: 1fr;

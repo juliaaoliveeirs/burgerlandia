@@ -14,3 +14,35 @@
   display: flex;
   align-items: center;
 }
+
+.titulo {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.titulo h1 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.titulo img {
+  margin: 0 auto;
+}
+
+.js .js-scroll {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+}
+
+.js .js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+  .titulo {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}

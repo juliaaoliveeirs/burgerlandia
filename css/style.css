@@ -3,9 +3,11 @@
 @import './utilidades/cores.css';
 
 @import './global/header.css';
+@import './global/footer.css';
 
 @import './home/introducao.css';
 @import './home/cardapio.css';
 @import './home/promocoes.css';
+@import './home/depoimentos.css';
 
 @import './utilidades/componentes.css';
